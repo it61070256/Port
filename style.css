@@ -2,8 +2,14 @@
 	margin:0;
 }
 body{
-	padding-top:100px;
 	overflow-x: hidden;
+}
+html {
+     scroll-behavior: smooth;
+}
+.imbg{
+	width: 100%;
+	height: 100px;
 }
 #nabbar {
   overflow: hidden;
@@ -112,6 +118,7 @@ body{
 	padding-bottom: 2vw;
 }
 .spa{
+	padding-top: 4vw;
 	color: #c7cbd2;
 	font-size: 3vw;
 	text-align: center;
@@ -144,6 +151,7 @@ body{
 	font-size: 3vw;
 	text-align: center;
 	justify-content: center;
+	padding-top: 4vw;
 }
 .port1{
 	width:41vw;
@@ -197,9 +205,24 @@ body{
 	text-align: center;
 	justify-content: center;
 	}
-	body{
-   	padding-top: 70px;
-   }
+	.imbg{
+	width: 100%;
+	height: 70px;
+	}
+	.spa{
+	padding-top: 8vw;
+	color: #c7cbd2;
+	font-size: 3vw;
+	text-align: center;
+	justify-content: center;
+	}
+	.spb{
+	color: #c7cbd2;
+	font-size: 3vw;
+	text-align: center;
+	justify-content: center;
+	padding-top: 8vw;
+	}
    .na1{ 
 	color:white;
 	font-size: 4vw;
@@ -269,9 +292,10 @@ body{
 	text-align: center;
 	justify-content: center;
 	}
-	body{
-   	padding-top: 56px;
-   }
+	.imbg{
+	width: 100%;
+	height: 56px;
+	}
    .na1{ 
 	color:white;
 	font-size: 4vw;
@@ -299,12 +323,14 @@ body{
 	font-size: 4vw;
 	text-align: center;
 	justify-content: center;
+	padding-top: 12vw;
 	}
 	.spb{
 	color: #c7cbd2;
 	font-size: 4vw;
 	text-align: center;
 	justify-content: center;
+	padding-top: 12vw;
 	}
 	.int{
 	margin-top: 0;
